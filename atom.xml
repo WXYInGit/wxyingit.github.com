@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wxyingit.github.io</id>
     <title>王秀宇的博客</title>
-    <updated>2020-07-15T10:30:18.925Z</updated>
+    <updated>2020-07-15T10:43:00.143Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wxyingit.github.io"/>
     <link rel="self" href="https://wxyingit.github.io/atom.xml"/>
@@ -16,45 +16,33 @@
         <link href="https://wxyingit.github.io/post/ren-shi-oc-yu-xcode115-ban-ben/">
         </link>
         <updated>2020-07-15T08:58:20.000Z</updated>
-        <content type="html"><![CDATA[<pre><code>文章内容参考Objective-C第六版，结合当前最新版本Xcode11.5进行练习
-
-Xcode下载非常简单，只要你有MAC OS系统，不论是mac台式，mac笔记本还是黑苹果，都可以在App Store进行搜索下载，搜索关键字Xcode即可
-
-下载好后在自己的启动台中就可以找到对应的应用程序了，图标如下：
-![](https://wxyingit.github.io/post-images/1594804617655.png)
-
-打开后的界面如下：
-![](https://wxyingit.github.io/post-images/1594804710426.png)
-
-选择第二项的Create a new Xcode project，可以进入项目的创建，因为我现在练习的仅仅是Objective-C语言，并没有设计到UI界面等内容，因此我选择了macOS系统中的Command Line Tool，来帮助我实现代码的演练，图片如下：
-![](https://wxyingit.github.io/post-images/1594804937764.png)
-
-创建产品需要填写部分信息，按照本代码实现的目的，我将此产品起名为（Product Name）1.OC-hello world，组织名称（Organization Name）填写为WXY，组织识别码（Organization Identifier）我不是很清楚是啥，暂时也填写成了WXY，看情况时可以暂时这么填写，我猜测组织部分的两项内容与App上线有关，因此暂时先不予理会，代码语言选择Objective-C，具体填写如下图：
-![](https://wxyingit.github.io/post-images/1594805335929.png)
-
-下一步后让我选择了文件夹，我将产品代码保存到了我事先准备好的目录中，产品创建完毕后，产生了一个新界面，在左侧的菜单栏中出现了两个目录以及两个文件，暂时只人的一个文件main.m，学过C语言应该知道，main函数是整个程序的入口，因此这里main.m文件也应该是整个程序的主文件，文件中自己产生了相关代码，如下图：
-![](https://wxyingit.github.io/post-images/1594805631703.png)
-
-根据度娘的查询结构，文件名后缀为.m的是Objective-C源文件，.h是头文件，.c为C语言的源文件，.cc，.cpp为C++语言源文件等等
-
-代码内容的解读
-1. //开头的为注释内容，双斜杠开头的注释，只会注释本行开头到结尾，如果要写多行注释可以使用/*开始 */结束的成对符号，来进行注释，多行注释不能进行嵌套使用。编译器不会对注释部分进行编译执行，注释的主要作用是为该程序提供解释说明，对于自己编写的代码，好的注释是代码的重要组成部分，他可以帮助我们在很久以后从新理解我们自己编写的代码，也可以在团队合作中，让他人更容易读懂和接手你的代码
-2. Obejective-C是区分大小写的，一个字母在Obejective-C中大写和小写是存在不同的意义的，比如A与a代表的意思是不同的，也就是A不等于a
-3. #import部分意思为导入别人已经写好的代码或者包，这里可能是工作的同事，也可能是系统写好的内容。比如我们要处理一个大的数字运算，现实中我们可能需要使用计算器，使用计算器帮助我们进行数字运算的时候，就相当于我们在程序中使用#import将别人设计好的工具拿过来使用一样，
-4. int main() {}部分是在声明一个函数，main函数较为特别，main是在清楚的告诉程序从何处开始执行，小括号中是在指定返回值的类型，大括号中是函数的主体，也就是需要执行的部分，对于返回值的后面进行学习
-5. @autoreleasepool {}是自动释放池，写在这对大括号中的代码，在内存管理部分会有系统进行自动释放，相关内容后续会进行学习
-6. NSLog();是一个函数，它的作用是显示该函数的执行日期，时间，程序名以及传递给他的参数等内容，当中@表示传递给它的参数是NSString字符串对象，对于程序相关数据类型，后续进行学习
-7. Objective-C的所有程序语句必须使用“;”进行结尾，同时需要注意程序中不能出现中文模式下的英文字母和符号，所有代码中的内容都必须是英文输入法下的字母和符号
-8. return 0;意思为终止执行main函数，同时返回一个状态值，按照约定返回0意味着程序是正常结束的，任何非0的返回值都意味着程序可能出现了错误
-
-运行程序，可以在下方窗口得到执行结果，hello world！，结果如下图：
-![](https://wxyingit.github.io/post-images/1594805983978.png)
-
-如果对于执行程序需要输出多行，除了每行调用一次NSLog函数以外，还可以使用&quot;\n&quot;换行符进行换行，具体如图：
-![](https://wxyingit.github.io/post-images/1594808817670.png)
-
-到此算是对Objective-C与Xcode有个最初的印象了，后续会进行进行此两样内容的学习，主要以Objective-C为主
-</code></pre>
+        <content type="html"><![CDATA[<p>文章内容参考Objective-C第六版，结合当前最新版本Xcode11.5进行练习</p>
+<p>Xcode下载非常简单，只要你有MAC OS系统，不论是mac台式，mac笔记本还是黑苹果，都可以在App Store进行搜索下载，搜索关键字Xcode即可</p>
+<p>下载好后在自己的启动台中就可以找到对应的应用程序了，图标如下：<br>
+<img src="https://wxyingit.github.io/post-images/1594804617655.png" alt="" loading="lazy"></p>
+<p>打开后的界面如下：<br>
+<img src="https://wxyingit.github.io/post-images/1594804710426.png" alt="" loading="lazy"></p>
+<p>选择第二项的Create a new Xcode project，可以进入项目的创建，因为我现在练习的仅仅Objective-C语言，并没有设计到UI界面等内容，因此我选择了macOS系统中的Command Line Tool，来帮助我实现代码的演练，图片如下：<br>
+<img src="https://wxyingit.github.io/post-images/1594804937764.png" alt="" loading="lazy"></p>
+<p>创建产品需要填写部分信息，按照本代码实现的目的，我将此产品起名为（Product Name）1.OC-hello world，组织名称（Organization Name）填写为WXY，组织识别码（Organization Identifier）我不是很清楚是啥，暂时也填写成了WXY，看情况时可以暂时这么填写，我猜测组织部分的两项内容与App上线有关，因此暂时先不予理会，代码语言选择Objective-C，具体填写如下图：<br>
+<img src="https://wxyingit.github.io/post-images/1594805335929.png" alt="" loading="lazy"></p>
+<p>下一步后让我选择了文件夹，我将产品代码保存到了我事先准备好的目录中，产品创建完毕后，产生了一个新界面，在左侧的菜单栏中出现了两个目录以及两个文件，暂时只人的一个文件main.m，学过C语言应该知道，main函数是整个程序的入口，因此这里main.m文件也应该是整个程序的主文件，文件中自己产生了相关代码，如下图：<br>
+<img src="https://wxyingit.github.io/post-images/1594805631703.png" alt="" loading="lazy"></p>
+<p>根据度娘的查询结构，文件名后缀为.m的是Objective-C源文件，.h是头文件，.c为C语言的源文件，.cc，.cpp为C++语言源文件等等</p>
+<p>代码内容的解读<br>
+1. //开头的为注释内容，双斜杠开头的注释，只会注释本行开头到结尾，如果要写多行注释可以使用/*开始 */结束的成对符号，来进行注释，多行注释不能进行嵌套使用。编译器不会对注释部分进行编译执行，注释的主要作用是为该程序提供解释说明，对于自己编写的代码，好的注释是代码的重要组成部分，他可以帮助我们在很久以后从新理解我们自己编写的代码，也可以在团队合作中，让他人更容易读懂和接手你的代码<br>
+2. Obejective-C是区分大小写的，一个字母在Obejective-C中大写和小写是存在不同的意义的，比如A与a代表的意思是不同的，也就是A不等于a<br>
+3. #import部分意思为导入别人已经写好的代码或者包，这里可能是工作的同事，也可能是系统写好的内容。比如我们要处理一个大的数字运算，现实中我们可能需要使用计算器，使用计算器帮助我们进行数字运算的时候，就相当于我们在程序中使用#import将别人设计好的工具拿过来使用一样，<br>
+4. int main() {}部分是在声明一个函数，main函数较为特别，main是在清楚的告诉程序从何处开始执行，小括号中是在指定返回值的类型，大括号中是函数的主体，也就是需要执行的部分，对于返回值的后面进行学习<br>
+5. @autoreleasepool {}是自动释放池，写在这对大括号中的代码，在内存管理部分会有系统进行自动释放，相关内容后续会进行学习<br>
+6. NSLog();是一个函数，它的作用是显示该函数的执行日期，时间，程序名以及传递给他的参数等内容，当中@表示传递给它的参数是NSString字符串对象，对于程序相关数据类型，后续进行学习<br>
+7. Objective-C的所有程序语句必须使用“;”进行结尾，同时需要注意程序中不能出现中文模式下的英文字母和符号，所有代码中的内容都必须是英文输入法下的字母和符号<br>
+8. return 0;意思为终止执行main函数，同时返回一个状态值，按照约定返回0意味着程序是正常结束的，任何非0的返回值都意味着程序可能出现了错误</p>
+<p>运行程序，可以在下方窗口得到执行结果，hello world！，结果如下图：<br>
+<img src="https://wxyingit.github.io/post-images/1594805983978.png" alt="" loading="lazy"></p>
+<p>如果对于执行程序需要输出多行，除了每行调用一次NSLog函数以外，还可以使用&quot;\n&quot;换行符进行换行，具体如图：<br>
+<img src="https://wxyingit.github.io/post-images/1594808817670.png" alt="" loading="lazy"></p>
+<p>到此算是对Objective-C与Xcode有个最初的印象了，后续会进行进行此两样内容的学习，主要以Objective-C为主</p>
 ]]></content>
     </entry>
     <entry>
